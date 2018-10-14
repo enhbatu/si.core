@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CoreDomain">
+      <HintPath>..\..\..\dotnet core\CoreLib\CoreDomain\bin\Debug\netcoreapp2.0\CoreDomain.dll</HintPath>
+    </Reference>
+    <Reference Include="OrgAccount">
+      <HintPath>..\..\..\dotnet core\CoreLib\OrgAccount\bin\Debug\netcoreapp2.0\OrgAccount.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

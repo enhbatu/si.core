@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Account">
+      <HintPath>..\..\..\dotnet core\CoreLib\Account\bin\Debug\netcoreapp2.0\Account.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
